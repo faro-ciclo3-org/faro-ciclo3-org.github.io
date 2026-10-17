@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciclo 3 · mensajes de estado</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Ciclo 3 · mensajes de estado</h1>
+    <div role="status" aria-live="off" class="toast"></div>
+    <ul class="form-errors"></ul>
+    <p>Errores en el formulario: <span class="error-count">3</span></p>
+    <div class="toast"></div>
+    <div class="toast"></div>
+    <form><button type="button" id="c3-se-btn">Guardar</button></form>
+    <script>
+      document.getElementById("c3-se-btn").addEventListener("click", () => {
+        const aviso = document.createElement("div");
+        aviso.textContent = "Cambios guardados";
+        document.body.append(aviso);
+      });
+    </script>
+  </main>
+</body>
+</html>

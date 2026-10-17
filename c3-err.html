@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciclo 3 · errores y propósito de campos</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Ciclo 3 · errores y propósito de campos</h1>
+    <form>
+      <div>
+        <label for="c3-err-a">Legajo</label>
+        <input id="c3-err-a" name="c3-err-a" aria-invalid="true">
+        <span class="error" id="c3-err-a-msg">Ingresá solo números.</span>
+      </div>
+      <div>
+        <label for="c3-err-b">Sucursal</label>
+        <input id="c3-err-b" name="c3-err-b" class="is-invalid" aria-describedby="c3-err-b-msg">
+        <span class="error" id="c3-err-b-msg">Elegí una sucursal de la lista.</span>
+      </div>
+      <div>
+        <label for="c3-err-c">Fecha de alta</label>
+        <input id="c3-err-c" name="c3-err-c" aria-invalid="true">
+        <span class="error">Revisá la fecha.</span>
+      </div>
+      <div><label for="c3-err-mail">Correo electrónico</label><input type="email" id="c3-err-mail" name="email"></div>
+      <div><label for="c3-err-cp">Código postal</label><input type="text" id="c3-err-cp" name="cp"></div>
+      <div><label for="c3-err-tel">Teléfono</label><input type="tel" id="c3-err-tel" name="tel"></div>
+    </form>
+  </main>
+</body>
+</html>

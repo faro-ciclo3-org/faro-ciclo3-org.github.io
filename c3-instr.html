@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciclo 3 · instrucciones de los campos</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Ciclo 3 · instrucciones de los campos</h1>
+    <form>
+      <div>
+        <label for="dni">DNI</label> <input id="dni" name="dni" pattern="[0-9]{7,8}"> <p class="ayuda">Sin puntos ni espacios.</p>
+      </div>
+      <div>
+        <p id="c-otro">Lo vas a usar para entrar al sistema.</p>
+        <label for="c3-in-b">Usuario</label>
+        <input id="c3-in-b" name="c3-in-b" aria-describedby="c-otro"><small>Entre 6 y 12 caracteres.</small>
+      </div>
+      <div>
+        <label for="c3-in-c">Código de cliente</label>
+        <input id="c3-in-c" name="c3-in-c">
+        <p class="ayuda">Figura en la factura.</p>
+        <p class="ayuda">Tiene 8 dígitos.</p>
+      </div>
+      <div>
+        <label for="c3-in-d">Número de pedido</label>
+        <input id="c3-in-d" name="c3-in-d" aria-describedby="c3-in-d-ayuda">
+        <span class="error" role="alert">Campo obligatorio.</span>
+        <p class="ayuda" id="c3-in-d-ayuda">Lo encontrás en el mail de confirmación.</p>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,1485 @@
+{
+ "c3-label.html": {
+  "title": "Ciclo 3 · etiquetas de campos",
+  "cases": [
+   "RV-01",
+   "CP-37-02",
+   "CP-37-03",
+   "CP-37-06",
+   "CP-37-08"
+  ],
+  "expect": [
+   "faro-missing-label",
+   "faro-unassociated-label",
+   "label",
+   "aria-toggle-field-name"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-unassociated-label"
+  ],
+  "nopatch": [],
+  "note": "(a) c3-lb-q sin texto · (b) c3-lb-prof label sin for · (d) c3-lb-nota con dos textos, en el medio para RV-01 · (c) c3-lb-dni texto suelto · (e) aria-label sin texto visible · (f) solo placeholder · (g) switch sin nombre · (h) label con for a un id inexistente"
+ },
+ "c3-err.html": {
+  "title": "Ciclo 3 · errores y propósito de campos",
+  "cases": [
+   "RV-01",
+   "RV-05"
+  ],
+  "expect": [
+   "faro-input-purpose",
+   "faro-error-identification",
+   "faro-color-only"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-input-purpose",
+   "faro-error-identification"
+  ],
+  "nopatch": [],
+  "note": "1.3.5: correo y teléfono tienen arreglo; el código postal, en el medio, no (RV-01). faro-color-only marca los campos con error aunque el mensaje no depende del color: observación del ciclo 2"
+ },
+ "c3-lang.html": {
+  "title": "Ciclo 3 · página sin idioma",
+  "cases": [
+   "CP-21-01"
+  ],
+  "expect": [
+   "html-has-lang"
+  ],
+  "forbid": [],
+  "patch": [
+   "html-has-lang"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-lang-falla.html": {
+  "title": "Ciclo 3 · página sin idioma",
+  "cases": [
+   "CP-41-01"
+  ],
+  "expect": [
+   "html-has-lang"
+  ],
+  "forbid": [],
+  "patch": [
+   "html-has-lang"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-target.html": {
+  "title": "Ciclo 3 · objetivos táctiles chicos",
+  "cases": [
+   "CP-29-03"
+  ],
+  "expect": [
+   "target-size",
+   "faro-target-size"
+  ],
+  "forbid": [],
+  "patch": [
+   "target-size"
+  ],
+  "nopatch": [],
+  "note": "Dos botones de 16×16 px pegados, con la regla por clase en CSS externo"
+ },
+ "c3-target-v2.html": {
+  "title": "Ciclo 3 · objetivos táctiles chicos",
+  "cases": [
+   "CP-15-01"
+  ],
+  "expect": [
+   "target-size",
+   "faro-target-size"
+  ],
+  "forbid": [],
+  "patch": [
+   "target-size"
+  ],
+  "nopatch": [],
+  "note": "Dos botones de 16×16 px pegados, con la regla por clase en CSS externo"
+ },
+ "c3-color-only.html": {
+  "title": "Ciclo 3 · enlace solo por color",
+  "cases": [
+   "CP-29-04"
+  ],
+  "expect": [
+   "link-in-text-block"
+  ],
+  "forbid": [],
+  "patch": [
+   "link-in-text-block"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-multi-node.html": {
+  "title": "Ciclo 3 · un defecto en dos elementos",
+  "cases": [
+   "CP-20-07"
+  ],
+  "expect": [
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [
+   "color-contrast"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-labelname.html": {
+  "title": "Ciclo 3 · nombre accesible distinto del texto",
+  "cases": [
+   "CP-34-02"
+  ],
+  "expect": [
+   "label-content-name-mismatch"
+  ],
+  "forbid": [],
+  "patch": [
+   "label-content-name-mismatch"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-cimp.html": {
+  "title": "Ciclo 3 · contraste con !important",
+  "cases": [
+   "CP-20-05"
+  ],
+  "expect": [
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-media.html": {
+  "title": "Ciclo 3 · foco dentro de una media query",
+  "cases": [
+   "CP-29-05"
+  ],
+  "expect": [
+   "faro-focus-visible"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-dup.html": {
+  "title": "Ciclo 3 · selector repetido en dos hojas",
+  "cases": [
+   "CP-29-06"
+  ],
+  "expect": [
+   "faro-focus-visible"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-01.html": {
+  "title": "Ciclo 3 · página 01 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-02.html": {
+  "title": "Ciclo 3 · página 02 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-03.html": {
+  "title": "Ciclo 3 · página 03 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-04.html": {
+  "title": "Ciclo 3 · página 04 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-05.html": {
+  "title": "Ciclo 3 · página 05 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-06.html": {
+  "title": "Ciclo 3 · página 06 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-07.html": {
+  "title": "Ciclo 3 · página 07 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-08.html": {
+  "title": "Ciclo 3 · página 08 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-09.html": {
+  "title": "Ciclo 3 · página 09 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-10.html": {
+  "title": "Ciclo 3 · página 10 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-11.html": {
+  "title": "Ciclo 3 · página 11 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-12.html": {
+  "title": "Ciclo 3 · página 12 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-13.html": {
+  "title": "Ciclo 3 · página 13 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-14.html": {
+  "title": "Ciclo 3 · página 14 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-15.html": {
+  "title": "Ciclo 3 · página 15 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-16.html": {
+  "title": "Ciclo 3 · página 16 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-17.html": {
+  "title": "Ciclo 3 · página 17 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-18.html": {
+  "title": "Ciclo 3 · página 18 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-19.html": {
+  "title": "Ciclo 3 · página 19 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-20.html": {
+  "title": "Ciclo 3 · página 20 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-21.html": {
+  "title": "Ciclo 3 · página 21 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-22.html": {
+  "title": "Ciclo 3 · página 22 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-23.html": {
+  "title": "Ciclo 3 · página 23 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-24.html": {
+  "title": "Ciclo 3 · página 24 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-25.html": {
+  "title": "Ciclo 3 · página 25 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-26.html": {
+  "title": "Ciclo 3 · página 26 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-27.html": {
+  "title": "Ciclo 3 · página 27 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-28.html": {
+  "title": "Ciclo 3 · página 28 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-29.html": {
+  "title": "Ciclo 3 · página 29 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-30.html": {
+  "title": "Ciclo 3 · página 30 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-31.html": {
+  "title": "Ciclo 3 · página 31 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-32.html": {
+  "title": "Ciclo 3 · página 32 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-33.html": {
+  "title": "Ciclo 3 · página 33 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-34.html": {
+  "title": "Ciclo 3 · página 34 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-35.html": {
+  "title": "Ciclo 3 · página 35 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-36.html": {
+  "title": "Ciclo 3 · página 36 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-37.html": {
+  "title": "Ciclo 3 · página 37 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-38.html": {
+  "title": "Ciclo 3 · página 38 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-39.html": {
+  "title": "Ciclo 3 · página 39 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-40.html": {
+  "title": "Ciclo 3 · página 40 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-41.html": {
+  "title": "Ciclo 3 · página 41 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-42.html": {
+  "title": "Ciclo 3 · página 42 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-43.html": {
+  "title": "Ciclo 3 · página 43 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-44.html": {
+  "title": "Ciclo 3 · página 44 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-45.html": {
+  "title": "Ciclo 3 · página 45 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-46.html": {
+  "title": "Ciclo 3 · página 46 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-47.html": {
+  "title": "Ciclo 3 · página 47 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-48.html": {
+  "title": "Ciclo 3 · página 48 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-49.html": {
+  "title": "Ciclo 3 · página 49 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-50.html": {
+  "title": "Ciclo 3 · página 50 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-51.html": {
+  "title": "Ciclo 3 · página 51 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-52.html": {
+  "title": "Ciclo 3 · página 52 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-53.html": {
+  "title": "Ciclo 3 · página 53 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-54.html": {
+  "title": "Ciclo 3 · página 54 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-55.html": {
+  "title": "Ciclo 3 · página 55 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-56.html": {
+  "title": "Ciclo 3 · página 56 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-57.html": {
+  "title": "Ciclo 3 · página 57 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-58.html": {
+  "title": "Ciclo 3 · página 58 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-59.html": {
+  "title": "Ciclo 3 · página 59 de 60",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-muchos/p-60.html": {
+  "title": "Ciclo 3 · página 60 de 60",
+  "cases": [
+   "RV-02"
+  ],
+  "expect": [
+   "html-has-lang"
+  ],
+  "forbid": [],
+  "patch": [
+   "html-has-lang"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ok.html": {
+  "title": "Ciclo 3 · página sin hallazgos",
+  "cases": [
+   "RV-03",
+   "CP-03-06"
+  ],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-instr.html": {
+  "title": "Ciclo 3 · instrucciones de los campos",
+  "cases": [
+   "CP-37-10",
+   "CP-37-11",
+   "CP-37-12",
+   "CP-37-13"
+  ],
+  "expect": [
+   "faro-unassociated-instruction"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-unassociated-instruction"
+  ],
+  "nopatch": [],
+  "note": "(a) DNI · (b) usuario con aria-describedby previo y <small> pegado · (c) dos ayudas · (d) error y ayuda conectada (sin hallazgo)"
+ },
+ "c3-many.html": {
+  "title": "",
+  "cases": [
+   "CP-16-06"
+  ],
+  "expect": [
+   "image-alt",
+   "button-name",
+   "link-name",
+   "label",
+   "select-name",
+   "frame-title",
+   "html-has-lang",
+   "document-title",
+   "color-contrast",
+   "label-content-name-mismatch"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "Más de 10 reglas distintas: el tope de remediaciones tiene que dejar rastro de todas"
+ },
+ "c3-chk.html": {
+  "title": "Ciclo 3 · checkbox ARIA incompleto",
+  "cases": [
+   "RV-04"
+  ],
+  "expect": [
+   "aria-required-attr",
+   "aria-toggle-field-name",
+   "faro-missing-label"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "Dos reglas del mismo criterio (4.1.2) sobre el mismo elemento"
+ },
+ "c3-alcance/index.html": {
+  "title": "Ciclo 3 · alcance · inicio",
+  "cases": [
+   "CP-03-04",
+   "CP-03-09",
+   "CP-03-10",
+   "CP-03-11",
+   "CP-03-12",
+   "CP-03-13",
+   "CP-41-02"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-alcance/contacto.html": {
+  "title": "Ciclo 3 · alcance · contacto",
+  "cases": [
+   "CP-03-04",
+   "CP-03-09",
+   "CP-03-10",
+   "CP-03-12",
+   "CP-03-13",
+   "CP-41-02"
+  ],
+  "expect": [
+   "faro-input-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-alcance/admin.html": {
+  "title": "Ciclo 3 · alcance · administración",
+  "cases": [
+   "CP-03-04",
+   "CP-03-12"
+  ],
+  "expect": [
+   "button-name"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-contrast.html": {
+  "title": "Ciclo 3 · contraste de texto",
+  "cases": [
+   "CP-20-01",
+   "CP-20-06",
+   "CP-16-05",
+   "CP-16-10",
+   "CP-20-12"
+  ],
+  "expect": [
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [
+   "color-contrast"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-nontext.html": {
+  "title": "Ciclo 3 · contraste de bordes",
+  "cases": [
+   "CP-20-03"
+  ],
+  "expect": [
+   "faro-non-text-contrast"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-non-text-contrast"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-contrast-inline.html": {
+  "title": "Ciclo 3 · contraste en style interno",
+  "cases": [
+   "CP-20-04"
+  ],
+  "expect": [
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-tailwind.html": {
+  "title": "Ciclo 3 · foco con utilidades",
+  "cases": [
+   "CP-29-07"
+  ],
+  "expect": [
+   "faro-focus-visible"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-autocomp.html": {
+  "title": "Ciclo 3 · propósito de campos",
+  "cases": [
+   "CP-21-03"
+  ],
+  "expect": [
+   "faro-input-purpose",
+   "autocomplete-valid"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-input-purpose"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ambiguo.html": {
+  "title": "Ciclo 3 · elemento repetido en la fuente",
+  "cases": [
+   "CP-21-05"
+  ],
+  "expect": [
+   "faro-input-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "El mismo fragmento dos veces: el locator encuentra dos candidatos y tiene que delegar"
+ },
+ "c3-same-criterion.html": {
+  "title": "Ciclo 3 · dos reglas del mismo criterio",
+  "cases": [
+   "CP-21-07"
+  ],
+  "expect": [
+   "button-name",
+   "link-name",
+   "image-alt",
+   "faro-link-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-focus-visible.html": {
+  "title": "Ciclo 3 · indicador de foco quitado",
+  "cases": [
+   "CP-29-01"
+  ],
+  "expect": [
+   "faro-focus-visible"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-focus-visible"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-focus-obscured.html": {
+  "title": "Ciclo 3 · foco tapado por un header fijo",
+  "cases": [
+   "CP-29-02"
+  ],
+  "expect": [
+   "faro-focus-obscured"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-focus-obscured"
+  ],
+  "nopatch": [],
+  "note": "Adaptada de tests/fixtures/focus_obscured.html del worker, con CSS externo"
+ },
+ "c3-bypass.html": {
+  "title": "Ciclo 3 · sin forma de saltear el menú",
+  "cases": [
+   "CP-16-01"
+  ],
+  "expect": [
+   "bypass"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "Los enlaces del menú no son #anclas: si lo fueran, axe los contaría como skip-link (FX-BYPASS)"
+ },
+ "c3-link.html": {
+  "title": "Ciclo 3 · propósito de enlaces",
+  "cases": [
+   "CP-14-01"
+  ],
+  "expect": [
+   "faro-link-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-issues-off.html": {
+  "title": "Ciclo 3 · hallazgo que solo sale por Issue",
+  "cases": [
+   "CP-16-03"
+  ],
+  "expect": [
+   "faro-heading-order"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-img.html": {
+  "title": "Ciclo 3 · imágenes sin texto alternativo",
+  "cases": [
+   "CP-04-01"
+  ],
+  "expect": [
+   "image-alt",
+   "input-image-alt",
+   "area-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-link-variantes.html": {
+  "title": "Ciclo 3 · variantes de «clic acá»",
+  "cases": [
+   "CP-14-03"
+  ],
+  "expect": [
+   "faro-link-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "Tiene que haber un hallazgo por cada uno de los cuatro enlaces"
+ },
+ "c3-status-extra.html": {
+  "title": "Ciclo 3 · mensajes de estado",
+  "cases": [
+   "CP-39-07"
+  ],
+  "expect": [
+   "faro-status-message-not-announced"
+  ],
+  "forbid": [],
+  "patch": [
+   "faro-status-message-not-announced"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-img.html": {
+  "title": "Ciclo 3 · IA · ficha de producto",
+  "cases": [
+   "CP-30-01",
+   "CP-30-02"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-deco.html": {
+  "title": "Ciclo 3 · IA · imagen decorativa",
+  "cases": [
+   "CP-30-04"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-caption.html": {
+  "title": "Ciclo 3 · IA · imagen con epígrafe",
+  "cases": [
+   "CP-30-03"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-title.html": {
+  "title": "Ciclo 3 · IA · imagen con title",
+  "cases": [
+   "CP-30-05"
+  ],
+  "expect": [],
+  "forbid": [
+   "image-alt"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": "axe acepta title como alternativa: la imagen no se marca. El esperado de CP-30-05 hay que corregirlo en el catálogo"
+ },
+ "c3-ia-icon-svg.html": {
+  "title": "Ciclo 3 · IA · botón con ícono SVG",
+  "cases": [
+   "CP-31-02"
+  ],
+  "expect": [
+   "button-name"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-icon-png.html": {
+  "title": "Ciclo 3 · IA · botón con ícono PNG",
+  "cases": [
+   "CP-31-03"
+  ],
+  "expect": [
+   "button-name",
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-role-value.html": {
+  "title": "Ciclo 3 · IA · checkbox sin estado",
+  "cases": [
+   "CP-31-04"
+  ],
+  "expect": [
+   "aria-required-attr",
+   "faro-missing-label"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-dyn-id.html": {
+  "title": "Ciclo 3 · IA · imagen con id que cambia",
+  "cases": [
+   "CP-32-02",
+   "CP-32-03"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-labelname-parcial.html": {
+  "title": "Ciclo 3 · IA · nombre parcial",
+  "cases": [
+   "CP-34-01"
+  ],
+  "expect": [
+   "label-content-name-mismatch"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-labelledby.html": {
+  "title": "Ciclo 3 · IA · nombre por aria-labelledby",
+  "cases": [
+   "CP-34-03"
+  ],
+  "expect": [
+   "label-content-name-mismatch"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "planes.html": {
+  "title": "Planes y precios",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-link-contexto.html": {
+  "title": "Ciclo 3 · IA · enlace genérico con contexto",
+  "cases": [
+   "CP-35-01"
+  ],
+  "expect": [
+   "faro-link-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-link-markup.html": {
+  "title": "Ciclo 3 · IA · enlace con marcado interno",
+  "cases": [
+   "CP-35-02"
+  ],
+  "expect": [
+   "faro-link-purpose"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-err-d.html": {
+  "title": "Ciclo 3 · IA · dos mensajes posibles",
+  "cases": [
+   "CP-36-05"
+  ],
+  "expect": [
+   "faro-error-identification",
+   "faro-color-only"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-aria.html": {
+  "title": "Ciclo 3 · IA · control sin nombre",
+  "cases": [
+   "CP-31-01"
+  ],
+  "expect": [
+   "aria-command-name"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-svg.html": {
+  "title": "Ciclo 3 · IA · SVG con tildes",
+  "cases": [
+   "CP-30-08"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "H-03: el único texto de la imagen está dentro del SVG en base64"
+ },
+ "c3-ia-siete.html": {
+  "title": "Ciclo 3 · IA · siete imágenes sin alt",
+  "cases": [
+   "CP-33-04"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-cap-uno.html": {
+  "title": "Ciclo 3 · IA · tope de una consulta",
+  "cases": [
+   "CP-33-03"
+  ],
+  "expect": [
+   "image-alt",
+   "aria-command-name"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-intentos.html": {
+  "title": "Ciclo 3 · IA · límite de intentos",
+  "cases": [
+   "CP-33-02"
+  ],
+  "expect": [
+   "image-alt"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-timeout.html": {
+  "title": "Ciclo 3 · IA · imagen y contraste",
+  "cases": [
+   "CP-41-03"
+  ],
+  "expect": [
+   "image-alt",
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [
+   "color-contrast"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "c3-ia-caida.html": {
+  "title": "Ciclo 3 · IA · imagen y contraste",
+  "cases": [
+   "CP-33-01",
+   "CP-16-09"
+  ],
+  "expect": [
+   "image-alt",
+   "color-contrast"
+  ],
+  "forbid": [],
+  "patch": [
+   "color-contrast"
+  ],
+  "nopatch": [],
+  "note": ""
+ },
+ "index.html": {
+  "title": "Sitio de prueba del ciclo 3 de FARO",
+  "cases": [],
+  "expect": [],
+  "forbid": [
+   "*"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": ""
+ }
+}

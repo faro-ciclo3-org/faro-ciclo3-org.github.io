@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciclo 3 · IA · imagen con id que cambia</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Ciclo 3 · IA · imagen con id que cambia</h1>
+    <img id="c3-ia-dyn" src="https://faro-ciclo3-org.github.io/img/taza.jpg">
+    <script>
+      // Cada carga genera un id distinto: FARO no puede volver a encontrar el elemento para validar el parche.
+      document.getElementById("c3-ia-dyn").id = "img-" + Math.random().toString(36).slice(2);
+    </script>
+  </main>
+</body>
+</html>
