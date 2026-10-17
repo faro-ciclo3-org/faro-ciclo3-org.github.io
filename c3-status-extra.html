@@ -10,8 +10,8 @@
   <main id="main">
     <h1>Ciclo 3 · mensajes de estado</h1>
     <div role="status" aria-live="off" class="toast"></div>
-    <ul class="form-errors"></ul>
-    <p>Errores en el formulario: <span class="error-count">3</span></p>
+    <ul aria-live="assertive" class="form-errors"></ul>
+    <p>Errores en el formulario: <span role="status" class="error-count">3</span></p>
     <div class="toast"></div>
     <div class="toast"></div>
     <form><button type="button" id="c3-se-btn">Guardar</button></form>
