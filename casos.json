@@ -160,6 +160,20 @@
   "nopatch": [],
   "note": ""
  },
+ "c3-important.html": {
+  "title": "Ciclo 3 · objetivo táctil con !important",
+  "cases": [
+   "CP-29-08"
+  ],
+  "expect": [
+   "target-size",
+   "faro-target-size"
+  ],
+  "forbid": [],
+  "patch": [],
+  "nopatch": [],
+  "note": "El arreglo de 2.5.8 tendría que cambiar min-width, que tiene !important: llega Issue"
+ },
  "c3-media.html": {
   "title": "Ciclo 3 · foco dentro de una media query",
   "cases": [
