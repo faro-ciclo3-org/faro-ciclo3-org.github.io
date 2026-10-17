@@ -1,4 +1,4 @@
 header.c3-fo-header { position: sticky; top: 0; height: 64px; line-height: 64px; padding: 0 24px; background: #123456; color: #ffffff; z-index: 10; }
 .c3-fo-hero { margin-top: -64px; background: #eef2ff; padding: 8px 24px 24px; }
-#c3-fo-email { height: 24px; }
+#c3-fo-email { height: 24px; /* FARO — WCAG 2.4.11 */ scroll-margin-top: 64px;}
 .c3-fo-filler { height: 900px; }
