@@ -1109,6 +1109,19 @@
   "cases": [
    "CP-29-02"
   ],
+  "expect": [],
+  "forbid": [
+   "faro-focus-obscured"
+  ],
+  "patch": [],
+  "nopatch": [],
+  "note": "Variante (b) de CP-29-02: el header tapa el campo solo en parte. 2.4.11 pide que no quede enteramente tapado (el parcial es 2.4.12, AAA), así que no hay hallazgo (D-16)"
+ },
+ "c3-focus-obscured-full.html": {
+  "title": "Ciclo 3 · foco enteramente tapado",
+  "cases": [
+   "CP-29-02"
+  ],
   "expect": [
    "faro-focus-obscured"
   ],
@@ -1117,7 +1130,7 @@
    "faro-focus-obscured"
   ],
   "nopatch": [],
-  "note": "Adaptada de tests/fixtures/focus_obscured.html del worker, con CSS externo"
+  "note": "Variantes (a) PR con scroll-margin-bottom en #c3-fof-bottom y (c) Issue para #c3-fof-top, que ningún scroll destapa"
  },
  "c3-bypass.html": {
   "title": "Ciclo 3 · sin forma de saltear el menú",
