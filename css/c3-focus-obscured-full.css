@@ -1,8 +1,10 @@
-.c3-fof-header { position: fixed; top: 0; left: 0; right: 0; height: 80px; background: #123456; color: #ffffff; padding: 0 24px; line-height: 80px; z-index: 10; }
-.c3-fof-footer { position: fixed; bottom: 0; left: 0; right: 0; height: 80px; background: #123456; color: #ffffff; padding: 0 24px; line-height: 80px; z-index: 10; }
-.c3-fof-under { position: absolute; top: 24px; left: 24px; z-index: 1; }
+.c3-fof-header { position: fixed; top: 0; left: 0; right: 0; height: 120px; background: #123456; color: #ffffff; padding: 0 24px; line-height: 120px; z-index: 10; }
+.c3-fof-box { position: absolute; left: 24px; z-index: 1; margin: 0; }
+.c3-fof-box label { display: inline; margin-right: 8px; }
+.c3-fof-box-top { top: 40px; }
+.c3-fof-box-mid { top: 2000px; }
+.c3-fof-box-bottom { top: 1687px; left: 480px; }
 #c3-fof-top { height: 24px; }
-.c3-fof-main { padding-top: 104px; }
-.c3-fof-filler { height: 1200px; }
+#c3-fof-mid { height: 24px; }
 #c3-fof-bottom { height: 24px; }
-.c3-fof-after { height: 400px; }
+.c3-fof-filler { height: 3200px; }

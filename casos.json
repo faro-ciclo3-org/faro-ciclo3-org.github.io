@@ -1130,7 +1130,7 @@
    "faro-focus-obscured"
   ],
   "nopatch": [],
-  "note": "Variantes (a) PR con scroll-margin-bottom en #c3-fof-bottom y (c) Issue para #c3-fof-top, que ningún scroll destapa"
+  "note": "Variantes (a) PR con scroll-margin-top en #c3-fof-bottom y (c) Issue para #c3-fof-top, que ningún scroll destapa"
  },
  "c3-bypass.html": {
   "title": "Ciclo 3 · sin forma de saltear el menú",
