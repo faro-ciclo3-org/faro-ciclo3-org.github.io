@@ -11,12 +11,12 @@
     <h1>Ciclo 3 · instrucciones de los campos</h1>
     <form>
       <div>
-        <label for="dni">DNI</label> <input id="dni" name="dni" pattern="[0-9]{7,8}"> <p class="ayuda">Sin puntos ni espacios.</p>
+        <label for="dni">DNI</label> <input aria-describedby="faro-ayuda-dni" id="dni" name="dni" pattern="[0-9]{7,8}"> <p id="faro-ayuda-dni" class="ayuda">Sin puntos ni espacios.</p>
       </div>
       <div>
         <p id="c-otro">Lo vas a usar para entrar al sistema.</p>
         <label for="r3-in-b">Usuario</label>
-        <input id="r3-in-b" name="r3-in-b" aria-describedby="c-otro"><small>Entre 6 y 12 caracteres.</small>
+        <input id="r3-in-b" name="r3-in-b" aria-describedby="c-otro faro-ayuda-r3-in-b"><small id="faro-ayuda-r3-in-b">Entre 6 y 12 caracteres.</small>
       </div>
       <div>
         <label for="r3-in-c">Código de cliente</label>
