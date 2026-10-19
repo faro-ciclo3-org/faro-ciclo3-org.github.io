@@ -1,1 +1,1 @@
-.r3-fv-btn:focus, .r3-fv-link:focus { outline: none; }
+.r3-fv-btn:focus, .r3-fv-link:focus { outline: 2px solid #2E75B6; /* FARO — WCAG 2.4.7 */ outline-offset: 2px;}
