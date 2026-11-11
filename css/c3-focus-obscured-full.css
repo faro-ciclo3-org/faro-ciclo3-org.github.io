@@ -6,5 +6,5 @@
 .c3-fof-box-bottom { top: 1687px; left: 480px; }
 #c3-fof-top { height: 24px; }
 #c3-fof-mid { height: 24px; }
-#c3-fof-bottom { height: 24px; }
+#c3-fof-bottom { height: 24px; /* FARO — WCAG 2.4.11 */ scroll-margin-top: 120px;}
 .c3-fof-filler { height: 3200px; }
